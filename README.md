@@ -1,2 +1,1 @@
-# LensAR
- Snapchat Lens in webAR
+# camera_kit_demo
