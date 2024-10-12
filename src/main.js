@@ -2,7 +2,7 @@ import { bootstrapCameraKit, createMediaStreamSource, Transform2D } from '@snap/
 
 (async function() {
   const apiToken =
-    'eyJhbGciOiJIUzI1NiIsImtpZCI6IkNhbnZhc1MyU0hNQUNQcm9kIiwidHlwIjoiSldUIn0.eyJhdWQiOiJjYW52YXMtY2FudmFzYXBpIiwiaXNzIjoiY2FudmFzLXMyc3Rva2VuIiwibmJmIjoxNzIwNDQ3MTQ0LCJzdWIiOiJlYWU4NzM2Yi1iYTJhLTQ5ZDEtODgxYS0xNDJlMGMxOGVkOTJ-U1RBR0lOR345OGExMzVjNi02NThjLTQyNmMtYjQ4ZC01ZGE2NmZjODcyZDEifQ.g6oOJrUO7JMTsdOlIwE_YNiVmSL1Q9BTVVgt6SWJF2Y';
+    'eyJhbGciOiJIUzI1NiIsImtpZCI6IkNhbnZhc1MyU0hNQUNQcm9kIiwidHlwIjoiSldUIn0.eyJhdWQiOiJjYW52YXMtY2FudmFzYXBpIiwiaXNzIjoiY2FudmFzLXMyc3Rva2VuIiwibmJmIjoxNzIwNDQ3MTQ0LCJzdWIiOiJlYWU4NzM2Yi1iYTJhLTQ5ZDEtODgxYS0xNDJlMGMxOGVkOTJ-UFJPRFVDVElPTn45NWNiNzIyNy0wZTBiLTQ4ZDQtOTZiMy1mNmM2YjQ4OGRhNTIifQ.sEiZZDVq5rnw8Zkrnx4n40joeCaJbEhl2w1mAxGhRik';
   const cameraKit = await bootstrapCameraKit({ apiToken });
 
   const canvas = document.getElementById('canvas');
